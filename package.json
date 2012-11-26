@@ -1,0 +1,6 @@
+{
+	name: "Presentatron",
+	version: "0.0.0",
+	description: "A web based presentation",
+	main: "main.json"
+}
