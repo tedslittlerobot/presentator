@@ -12,7 +12,8 @@ The tester.js module is an example of how to use it - run `node tester.js`, then
 The master page will have a previous and next slide button on the right hand side - clicking these will toggle between the first and second slides. they only have a few words at the moment, so it's not all that exciting, but it shows proof of concept - changeing slides on the master pushes the same thing out to the clients.
 
 
-things to do:
+Things to do:
+-------------
 + stage animations rather than triggering each element individually
 + add more animation parameters (currently just x and y positions - add width, height, opacity, etc.)
 + animation stages - for animations inside the same slide
