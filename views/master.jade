@@ -4,10 +4,14 @@ html
     title #{title}
     script(src='/socket.io/socket.io.js')
     script(src='scripts/jquery.js')
+    script(src='scripts/js.js')
     script(src='scripts/masterjs.js')
+    link(rel="stylesheet", type="text/css", href="/styles/client.css")
   body
+    .presentator
+      .slides
     .controller
-      button.prevslide
-      button.nextslide
-      .mastertimer
+      button.prevslide Previous Slide
+      button.nextslide Next Slide
+      .maintimer
       .slidetimer

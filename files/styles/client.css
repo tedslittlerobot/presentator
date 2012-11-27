@@ -1,0 +1,35 @@
+
+.presentator {
+	background-color: #DDD;
+	width:500px;
+	height:500px;
+	position: relative;
+	margin: 0px auto;
+}
+
+.slides,
+.slides .slide {
+	position: absolute;
+	left: 0px;
+	top 0px;
+}
+
+.slides .slide * {
+	position: absolute;
+}
+
+.presentator {
+	overflow: hidden;
+}
+.presentator.debug {
+	overflow: visible;
+}
+
+/* MASTER CONTROLS */
+.controller {
+	position: fixed;
+	top: 10px;
+	right: 0px;
+}
+
+
