@@ -1,18 +1,20 @@
-## Presentator
+Presentator
+===========
 
 A node.js module for creating presentations, and viewing them on multiple computers.
 
 It's just started, so there's a long way to go...!
 
-#### Using
-`` var pres  = require('presentator');
-var app = pres.init(presentationdata, 8080);``
-The first argument is a javascript data object containing all the data for the presentation. More on this later...
-The second argument can override the port to listen on.
-This function returns the `express()` app.k
+Using
+-----
 
-Then, navigate to localhost:8080 (or whatever port you specified) on every client browser, and localhost:8080/master to control the slides.
+The tester.js module is an example of how to use it - run `node tester.js`, then point a browser page at localhost:8080, and another at localhost:8080/master
+The master page will have a previous and next slide button on the right hand side - clicking these will toggle between the first and second slides. they only have a few words at the moment, so it's not all that exciting, but it shows proof of concept - changeing slides on the master pushes the same thing out to the clients.
 
-#### The Presentation Data object
-Eventually - once the editor bit's done, this will come automatically. But for now, you need to pass the object in manually.
-Also - it may well turn out that this is a terribly inefficient way of doing this, and i will almost certainly change it at a later date, but for now, trust that their may be a reason that i'm doing it this way...
+
+things to do:
++ stage animations rather than triggering each element individually
++ add more animation parameters (currently just x and y positions - add width, height, opacity, etc.)
++ animation stages - for animations inside the same slide
++ replace jquery calls
+
