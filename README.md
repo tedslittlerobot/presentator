@@ -1,7 +1,7 @@
 Presentator
 ===========
 
-A node.js module for creating presentations, and viewing them on multiple computers.
+A node.js module for creating presentations, and displaying them them on multiple computers, while controlling them on yours.
 
 It's just started, so there's a long way to go...!
 
